@@ -1,10 +1,14 @@
 Phyllotaxis in Reprocessing
 ---
-
+![out](https://user-images.githubusercontent.com/12150276/38447613-4dfb3d96-39f6-11e8-920b-045498701ff5.gif)
 ## How to
 
-### Install
+### Clone
+```
+git clone git@github.com:Rigellute/phyllotaxis-reasonml.git
+```
 
+### Install
 ```
 npm install
 ```
