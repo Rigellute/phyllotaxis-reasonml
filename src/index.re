@@ -25,10 +25,6 @@ let draw = (_state, env) => {
     Draw.ellipse(~center=(int_of_float(x), int_of_float(y)), ~radx=rad, ~rady=rad, env);
 
     n := deRefN +. 1.;
-  /* Draw.background(Utils.color(~r=199, ~g=217, ~b=229, ~a=255), env);
-  Draw.fill(Utils.color(~r=41, ~g=166, ~b=244, ~a=255), env);
-  Draw.rect(~pos=(150, 150), ~width=300, ~height=300, env)
-  */
 };
 
 run(~setup, ~draw, ());
